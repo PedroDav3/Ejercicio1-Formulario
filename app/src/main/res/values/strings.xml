@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">Ejercicio 1</string>
+    <string name="app_name">Formulario</string>
+    <string name="es_titulo">Formulario</string>
+    <string name="es_subtitulo">Ingrese sus datos</string>
+    <string name="verificar">Continuar</string>
+    <string name="valor_requerido">Dato requerido</string>
+    <string name="ingresa_valor">Por favor ingresa un número</string>
+    <string name="hintnombre">Nombre</string>
+    <string name="hintap">Apellido</string>
+    <string name="hintfecha">Fecha de Nacimiento</string>
+    <string name="hintcorreo">Correo electronico</string>
+    <string name="hintcuenta">Número de cuenta</string>
+    <string name="hintcarrera">Carrera</string>
+    <string name="version">Versión 1.0</string>
+    <string name="cuentaminimo">Porfavor igresa 9 digitos</string>
+    <string name="minCuenta">9</string>
+    <string name="correo_invalido">Porfavor ingresa un correo valido</string>
+    <string name="es_autor">Autor:</string>
+    <string name="autorname" translatable="false">Pedro David Arce Castillo</string>
+
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Form</string>
+    <string name="es_titulo">Form</string>
+    <string name="es_subtitulo">Enter your details</string>
+    <string name="verificar">Check</string>
+    <string name="valor_requerido">A value is required</string>
+    <string name="ingresa_valor">Please type a number</string>
+    <string name="hintnombre">First Name</string>
+    <string name="hintap">Last Name</string>
+    <string name="hintfecha">Birthdate</string>
+    <string name="hintcorreo">email</string>
+    <string name="hintcuenta">account number</string>
+    <string name="hintcarrera">Career</string>
+    <string name="version">Version 1.0</string>
+    <string name="cuentaminimo">Please enter 9 digits</string>
+    <string name="minCuenta">9</string>
+    <string name="correo_invalido">Please enter a valid email</string>
+    <string name="es_autor">Author</string>
+</resources>
