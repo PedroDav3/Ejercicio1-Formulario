@@ -56,7 +56,7 @@
         app:layout_constraintVertical_bias="0.256" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/givPersonaje"
+        android:id="@+id/givLoad"
         android:layout_width="309dp"
         android:layout_height="104dp"
         android:scaleType="fitCenter"

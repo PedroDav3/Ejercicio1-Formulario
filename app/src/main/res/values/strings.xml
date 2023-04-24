@@ -13,9 +13,11 @@
     <string name="hintcarrera">Carrera</string>
     <string name="version">Versión 1.0</string>
     <string name="cuentaminimo">Porfavor igresa 9 digitos</string>
-    <string name="minCuenta">9</string>
+    <string name="minCuenta" translatable="false">9</string>
     <string name="correo_invalido">Porfavor ingresa un correo valido</string>
     <string name="es_autor">Autor:</string>
     <string name="autorname" translatable="false">Pedro David Arce Castillo</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="regresar">Regresar</string>
 
 </resources>

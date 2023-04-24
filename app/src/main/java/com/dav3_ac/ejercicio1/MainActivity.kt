@@ -1,5 +1,6 @@
 package com.dav3_ac.ejercicio1
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -22,10 +23,13 @@ class MainActivity : AppCompatActivity() {
 
 
     fun click(view: View) {
-        validaciones()
+        if (validaciones()){
+            val intent = Intent(this, Loadign::class.java)
+            startActivity(intent)
+        }
     }
 
-    fun validaciones() {
+    fun validaciones(): Boolean {
         val resul = arrayListOf(
             validaNombre(),
             validaApellido(),
@@ -34,10 +38,8 @@ class MainActivity : AppCompatActivity() {
             validaFecha(),
             validaCarrera()
         )
-        if (false in resul) {
-            return
-        }
-        Toast.makeText(this, "Procesando datos", Toast.LENGTH_LONG).show()
+        return false !in resul
+
     }
 
     fun validaCuenta(): Boolean {

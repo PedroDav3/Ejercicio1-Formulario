@@ -14,7 +14,8 @@
     <string name="hintcarrera">Career</string>
     <string name="version">Version 1.0</string>
     <string name="cuentaminimo">Please enter 9 digits</string>
-    <string name="minCuenta">9</string>
     <string name="correo_invalido">Please enter a valid email</string>
     <string name="es_autor">Author</string>
+    <string name="title_activity_perfil">Profile</string>
+    <string name="regresar">Back</string>
 </resources>
