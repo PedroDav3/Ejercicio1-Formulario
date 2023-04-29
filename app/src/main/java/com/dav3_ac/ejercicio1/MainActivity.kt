@@ -3,6 +3,8 @@ package com.dav3_ac.ejercicio1
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.util.PatternsCompat
@@ -18,6 +20,35 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_main)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        ArrayAdapter.createFromResource(
+            this,
+            R.array.opciones,
+            android.R.layout.simple_spinner_item
+        ).also { adapter ->
+            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+            binding.spinner.adapter = adapter
+        }
+
+
+        binding.spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(
+                parent: AdapterView<*>?,
+                view: View?,
+                position: Int,
+                id: Long
+            ) {
+
+            }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+
+            }
+
+        }
+
+
 
     }
 
@@ -36,7 +67,7 @@ class MainActivity : AppCompatActivity() {
             validaCuenta(),
             validaCorreo(),
             validaFecha(),
-            validaCarrera()
+            validaCarrera(),
         )
         return false !in resul
 
@@ -93,11 +124,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun validaFecha(): Boolean {
-        /* if(binding.etFechaN.text.isNotEmpty()){
-
-         } else {
-             binding.etFechaN.error = resources.getString(R.string.valor_requerido)
-         }*/
         return if (binding.etFechaN.text.isEmpty()) {
             binding.etFechaN.error = resources.getString(R.string.valor_requerido)
             false
@@ -106,13 +132,18 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+
     fun validaCarrera(): Boolean {
-        return if (binding.etCarrera.text.isEmpty()) {
-            binding.etCarrera.error = resources.getString(R.string.valor_requerido)
+        return if (binding.spinner.selectedItemPosition == 0) {
+            Toast.makeText(this,
+                resources.getString(R.string.seleccion_carrera),
+                Toast.LENGTH_SHORT)
+                .show()
             false
         } else {
             true
         }
     }
+
 
 }

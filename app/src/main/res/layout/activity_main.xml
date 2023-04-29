@@ -117,23 +117,37 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.639" />
 
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="184dp"
+        android:layout_height="50dp"
+        android:contentDescription="@string/spinner"
+        android:dropDownWidth="wrap_content"
+        android:textAlignment="inherit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
     <EditText
         android:id="@+id/etCarrera"
         android:layout_width="187dp"
         android:layout_height="54dp"
+        android:clickable="false"
         android:ems="10"
+        android:focusable="false"
         android:fontFamily="@font/bryndanwrite"
         android:gravity="center"
-        android:hint="@string/hintcarrera"
         android:importantForAutofill="no"
-        android:inputType="text"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintVertical_bias="0.729" />
 
     <Button
         android:id="@+id/btnVerificar"
@@ -151,5 +165,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.834" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

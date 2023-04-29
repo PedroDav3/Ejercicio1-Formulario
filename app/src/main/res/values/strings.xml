@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Formulario</string>
     <string name="es_titulo">Formulario</string>
-    <string name="es_subtitulo">Ingrese sus datos</string>
+    <string name="es_subtitulo">Ingresa tus datos</string>
     <string name="verificar">Continuar</string>
     <string name="valor_requerido">Dato requerido</string>
     <string name="ingresa_valor">Por favor ingresa un número</string>
+    <string name="seleccion_carrera">Por favor selecciona una carrera</string>
     <string name="hintnombre">Nombre</string>
     <string name="hintap">Apellido</string>
     <string name="hintfecha">Fecha de Nacimiento</string>
@@ -15,9 +16,31 @@
     <string name="cuentaminimo">Porfavor igresa 9 digitos</string>
     <string name="minCuenta" translatable="false">9</string>
     <string name="correo_invalido">Porfavor ingresa un correo valido</string>
-    <string name="es_autor">Autor:</string>
+    <string name="es_autor">Por:</string>
     <string name="autorname" translatable="false">Pedro David Arce Castillo</string>
     <string name="title_activity_perfil">Perfil</string>
     <string name="regresar">Regresar</string>
+    <string name="spinner">Spinner para seleccionar carrera</string>
+
+    <string-array name="opciones">
+        <item>CARRERA</item>
+        <item>Ingeniería Aeroespacial</item>
+        <item>Ingeniería Civil</item>
+        <item>Ingeniería Geomática</item>
+        <item>Ingeniería Ambiental</item>
+        <item>Ingeniería Geofísica</item>
+        <item>Ingeniería Geológica</item>
+        <item>Ingeniería Petrolera</item>
+        <item>Ingeniería de Minas y Metalurgia</item>
+        <item>Ingeniería en Computación</item>
+        <item>Ingeniería Eléctrica Electrónica</item>
+        <item>Ingeniería en Telecomunicaciones</item>
+        <item>Ingeniería Mecánica</item>
+        <item>Ingeniería Industrial</item>
+        <item>Ingeniería Mecatrónica</item>
+        <item>Ingeniería en Sistemas Biomédicos</item>
+
+
+    </string-array>
 
 </resources>

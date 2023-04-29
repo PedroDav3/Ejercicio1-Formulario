@@ -6,6 +6,7 @@
     <string name="verificar">Check</string>
     <string name="valor_requerido">A value is required</string>
     <string name="ingresa_valor">Please type a number</string>
+    <string name="seleccion_carrera">Please select an carrer</string>
     <string name="hintnombre">First Name</string>
     <string name="hintap">Last Name</string>
     <string name="hintfecha">Birthdate</string>
@@ -15,7 +16,8 @@
     <string name="version">Version 1.0</string>
     <string name="cuentaminimo">Please enter 9 digits</string>
     <string name="correo_invalido">Please enter a valid email</string>
-    <string name="es_autor">Author</string>
+    <string name="es_autor">By:</string>
     <string name="title_activity_perfil">Profile</string>
     <string name="regresar">Back</string>
+    <string name="spinner">Spinner for select carrer</string>
 </resources>
