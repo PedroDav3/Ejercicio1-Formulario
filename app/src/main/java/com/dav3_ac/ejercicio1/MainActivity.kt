@@ -2,6 +2,7 @@ package com.dav3_ac.ejercicio1
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
@@ -9,11 +10,12 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.util.PatternsCompat
 import com.dav3_ac.ejercicio1.databinding.ActivityMainBinding
-
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var defaultDate: Calendar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -47,9 +49,24 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+        binding.etFechaN.setOnClickListener{showDatePickerDialog()}
+        defaultDate = GregorianCalendar(TimeZone.getDefault())
 
+    }
 
+    private fun showDatePickerDialog() {
+        val datePicker = DatePickerFragment({ day, month, year ->
+            defaultDate.set(Calendar.YEAR, year)
+            defaultDate.set(Calendar.MONTH, month)
+            defaultDate.set(Calendar.DAY_OF_MONTH, day)
+            onDateSelected(day, month, year)
+        },defaultDate)
 
+        datePicker.show(supportFragmentManager, "datePicker")
+    }
+
+    fun onDateSelected(day: Int,month: Int, year: Int){
+        binding.etFechaN.setText("$day del $month de $year")
     }
 
 

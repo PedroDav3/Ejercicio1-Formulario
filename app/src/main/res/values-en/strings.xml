@@ -20,4 +20,23 @@
     <string name="title_activity_perfil">Profile</string>
     <string name="regresar">Back</string>
     <string name="spinner">Spinner for select carrer</string>
+
+    <string-array name="opciones">
+        <item>SELECT CAREER</item>
+        <item>Aerospace Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Geomatics Engineering</item>
+        <item>Environmental Engineering</item>
+        <item>Geophysical Engineering</item>
+        <item>Geological Engineering</item>
+        <item>Petroleum Engineering</item>
+        <item>Mining and Metallurgical Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Electronic Electrical Engineering</item>
+        <item>Telecommunications Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Industrial Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Biomedical Systems Engineering</item>
+    </string-array>
 </resources>

@@ -23,7 +23,7 @@
     <string name="spinner">Spinner para seleccionar carrera</string>
 
     <string-array name="opciones">
-        <item>CARRERA</item>
+        <item>ELIGE CARRERA</item>
         <item>Ingeniería Aeroespacial</item>
         <item>Ingeniería Civil</item>
         <item>Ingeniería Geomática</item>
@@ -39,8 +39,6 @@
         <item>Ingeniería Industrial</item>
         <item>Ingeniería Mecatrónica</item>
         <item>Ingeniería en Sistemas Biomédicos</item>
-
-
     </string-array>
 
 </resources>
