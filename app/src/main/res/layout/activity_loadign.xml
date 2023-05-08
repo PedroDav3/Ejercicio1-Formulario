@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/artifika"
         android:gravity="center"
-        android:text="Generando Perfil"
+        android:text="@string/generando_perfil"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/white"

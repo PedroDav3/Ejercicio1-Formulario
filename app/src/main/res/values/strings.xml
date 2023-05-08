@@ -5,10 +5,14 @@
     <string name="verificar">Continuar</string>
     <string name="valor_requerido">Dato requerido</string>
     <string name="ingresa_valor">Por favor ingresa un número</string>
+    <string name="nombre_valido">Ingresa un nombre valido</string>
+    <string name="apellido_valido">Ingresa un apellido valido</string>
     <string name="seleccion_carrera">Por favor selecciona una carrera</string>
     <string name="hintnombre">Nombre</string>
     <string name="hintap">Apellido</string>
     <string name="hintfecha">Fecha de Nacimiento</string>
+    <string name="fechaNac_Esp" translatable="false">%1$d de %2$s de %3$d</string>
+    <string name="fechaNac_Eng" translatable="false">%2$s %1$d%4$s, %3$d</string>
     <string name="hintcorreo">Correo electronico</string>
     <string name="hintcuenta">Número de cuenta</string>
     <string name="hintcarrera">Carrera</string>
@@ -21,6 +25,51 @@
     <string name="title_activity_perfil">Perfil</string>
     <string name="regresar">Regresar</string>
     <string name="spinner">Spinner para seleccionar carrera</string>
+    <string name="ene">Enero</string>
+    <string name="feb">Febrero</string>
+    <string name="mar">Marzo</string>
+    <string name="abr">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="jun">Junio</string>
+    <string name="jul">Julio</string>
+    <string name="ago">Agosto</string>
+    <string name="sep">Septiembre</string>
+    <string name="oct">Octubre</string>
+    <string name="nov">Noviembre</string>
+    <string name="dic">Diciembre</string>
+
+    <string name="st" translatable="false">st</string>
+    <string name="nd" translatable="false">nd</string>
+    <string name="rd" translatable="false">rd</string>
+    <string name="th" translatable="false">th</string>
+
+    <string name="ari">Aries</string>
+    <string name="tau">Tauro</string>
+    <string name="gem">Géminis</string>
+    <string name="can">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="vir">Virgo</string>
+    <string name="lib">Libra</string>
+    <string name="esc">Escorpio</string>
+    <string name="sag">Sagitario</string>
+    <string name="cap">Capricornio</string>
+    <string name="acu">Acuario</string>
+    <string name="pis">Piscis</string>
+    <string name="desc_Avatar">Avatar de usuario</string>
+    <string name="nombre_c" translatable="false">%1$s %2$s</string>
+    <string name="perfil_nombre" translatable="false">%s</string>
+    <string name="perfil_edad">%d años</string>
+    <string name="perfil_zodiaco">%s</string>
+    <string name="perfil_chino">%s</string>
+    <string name="perfil_correo">Correo: %s</string>
+    <string name="perfil_cuenta">Número de cuenta: %s</string>
+    <string name="perfil_carrera">Carrera: %s</string>
+    <string name="desc_carrera">Imagen representativa de la carrera</string>
+    <string name="desc_zodiaco">Imagen representativa del signo zodiacal</string>
+    <string name="desc_chino">Imagen representativa del horoscopo chino</string>
+    <string name="perfil_zodiaco_text">Signo zodíacal:</string>
+    <string name="perfil_chino_text">Horóscopo chino:</string>
+    <string name="generando_perfil">Generando Perfil</string>
 
     <string-array name="opciones">
         <item>ELIGE CARRERA</item>
@@ -40,5 +89,24 @@
         <item>Ingeniería Mecatrónica</item>
         <item>Ingeniería en Sistemas Biomédicos</item>
     </string-array>
+
+
+    <integer name="offset_anio">1900</integer>
+    <string-array name="ciclo_animal">
+        <item>Rata</item>
+        <item>Buey</item>
+        <item>Tigre</item>
+        <item>Conejo</item>
+        <item>Dragón</item>
+        <item>Serpiente</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Mono</item>
+        <item>Gallo</item>
+        <item>Perro</item>
+        <item>Cerdo</item>
+    </string-array>
+
+
 
 </resources>

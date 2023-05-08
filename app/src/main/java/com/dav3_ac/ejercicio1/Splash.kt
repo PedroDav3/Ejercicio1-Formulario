@@ -1,6 +1,7 @@
 package com.dav3_ac.ejercicio1
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dav3_ac.ejercicio1.databinding.ActivitySplashBinding
@@ -14,6 +15,7 @@ class Splash : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
 
         thread {
 

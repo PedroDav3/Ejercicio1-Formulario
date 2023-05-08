@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tvsubtitulo"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/artifika"
         android:gravity="center"
@@ -21,10 +21,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.176" />
+        app:layout_constraintVertical_bias="0.19" />
 
     <EditText
         android:id="@+id/etNombre"
@@ -62,18 +62,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.36" />
 
+
+
     <EditText
         android:id="@+id/etFechaN"
         android:layout_width="187dp"
         android:layout_height="54dp"
+        android:clickable="false"
         android:ems="10"
+        android:focusable="false"
         android:fontFamily="@font/bryndanwrite"
         android:gravity="center"
         android:hint="@string/hintfecha"
         android:importantForAutofill="no"
         android:inputType="date|text"
-        android:clickable="false"
-        android:focusable="false"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,6 +83,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.451" />
+
+    <TextView
+        android:id="@+id/tvFecha"
+        android:layout_width="187dp"
+        android:layout_height="54dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
 
     <EditText
         android:id="@+id/etCorreo"
@@ -151,5 +165,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.834" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

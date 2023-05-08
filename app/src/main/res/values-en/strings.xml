@@ -6,11 +6,13 @@
     <string name="verificar">Check</string>
     <string name="valor_requerido">A value is required</string>
     <string name="ingresa_valor">Please type a number</string>
+    <string name="nombre_valido">Type a valid First Name</string>
+    <string name="apellido_valido">Type a valid Last Name</string>
     <string name="seleccion_carrera">Please select an carrer</string>
     <string name="hintnombre">First Name</string>
     <string name="hintap">Last Name</string>
     <string name="hintfecha">Birthdate</string>
-    <string name="hintcorreo">email</string>
+    <string name="hintcorreo">Email</string>
     <string name="hintcuenta">account number</string>
     <string name="hintcarrera">Career</string>
     <string name="version">Version 1.0</string>
@@ -20,6 +22,46 @@
     <string name="title_activity_perfil">Profile</string>
     <string name="regresar">Back</string>
     <string name="spinner">Spinner for select carrer</string>
+
+    <string name="ene">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="abr">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="jul">July</string>
+    <string name="ago">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dic">December</string>
+
+    <string name="ari">Aries</string>
+    <string name="tau">Taurus</string>
+    <string name="gem">Gemini</string>
+    <string name="can">Cancer</string>
+    <string name="leo">Leo</string>
+    <string name="vir">Virgo</string>
+    <string name="lib">Libra</string>
+    <string name="esc">Scorpio</string>
+    <string name="sag">Sagittarius</string>
+    <string name="cap">Capricorn</string>
+    <string name="acu">Aquarium</string>
+    <string name="pis">Pisces</string>
+    <string name="desc_Avatar">User avatar</string>
+    <string name="perfil_edad">%d years old</string>
+    <string name="perfil_zodiaco">%s</string>
+    <string name="perfil_chino">%s</string>
+    <string name="perfil_correo">Email: %s</string>
+    <string name="perfil_cuenta">Account number: %s</string>
+    <string name="perfil_carrera">Career: %s</string>
+    <string name="desc_carrera">Representative image of the race</string>
+    <string name="desc_zodiaco">Representative image of the zodiac sign</string>
+    <string name="desc_chino">Representative image of the Chinese horoscope</string>
+    <string name="perfil_zodiaco_text">Zodiac sign:</string>
+    <string name="perfil_chino_text">Chinese horoscope:</string>
+    <string name="generando_perfil">Generating Profile</string>
+
 
     <string-array name="opciones">
         <item>SELECT CAREER</item>
@@ -38,5 +80,20 @@
         <item>Industrial Engineering</item>
         <item>Mechatronics Engineering</item>
         <item>Biomedical Systems Engineering</item>
+    </string-array>
+
+    <string-array name="ciclo_animal">
+        <item>Rat</item>
+        <item>Ox</item>
+        <item>Tiger</item>
+        <item>Rabbit</item>
+        <item>Dragon</item>
+        <item>Snake</item>
+        <item>Horse</item>
+        <item>Goat</item>
+        <item>Monkey</item>
+        <item>Rooster</item>
+        <item>Dog</item>
+        <item>Pig</item>
     </string-array>
 </resources>
